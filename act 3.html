@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+
+		<h1> Sample Form </h1>
+		
+				<!--Text form-->
+
+	<form id="form">
+		<label for="fname">Name:</label>
+			<br>
+			<input type="fname" id="fname" name="fname">
+			<br>
+			<br>
+		<label for="email">Email:</label>
+			<br>
+			<input type="email" id="email" name="email">
+			<br>
+			<br>
+		<label for="age">Age:</label>
+			<br>
+			<input type="age" id="age" name="age">
+			<br>
+			<br>
+			
+				<!--Radio form-->
+			
+		<label>Gender</label>
+		<br>
+		<input type="radio" id="Gender" name="male" value="male">
+			<label for="Gender">Male</label>
+		<input type="radio" id="Gender" name="female" value="female">
+			<label for="Gender">Female</label>
+			<br>
+			<br>
+			
+				<!--Checkbox form-->
+			
+		<label>Interest</label>
+		<br>
+		<input type="checkbox" id="Interest" name="" value="">
+			<label for="Interest">Sport</label>
+		<input type="checkbox" id="Interest" name="" value="">
+			<label for="Interest">Music</label>
+		<input type="checkbox" id="Interest" name="" value="">
+			<label for="Interest">Movies</label>
+			<br>
+			<br>
+			
+				<!--Textarea form-->
+			
+		<label>Message</label>
+		<br>
+		<input type="textarea" name="message" rows="10" cols="30" style="width:500px; height:100px;"></textarea>
+		<br>
+		<br>
+		
+				<!--Submit form-->
+		
+		<input type="submit" value="Submit">
+		
+				<!--Error Validation-->
+		
+		<span role="alert" id="nameError" aria-hidden="true"></span>
+		
+	</form>
+
+</head>
+</html>
